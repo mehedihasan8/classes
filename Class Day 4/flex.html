@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .parent{
+            background-color: antiquewhite;
+            padding: 20px;
+            height: 100vh;
+            display: flex;
+            justify-content: end;
+            align-items: start;
+            gap: 10px;
+        }
+
+        .children{
+            background-color: blue;
+            color: white;
+            height: 50px;
+            margin: 10px 0px;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <div class="children">Children 1</div>
+        <div class="children">Children 2</div>
+        <div class="children">Children 3</div>
+        <div class="children">Children 4</div>
+        <div class="children">Children 5</div>
+    </section>
+</body>
+</html>
