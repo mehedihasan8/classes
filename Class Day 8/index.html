@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+    
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 55px;
+      }
+
+      .main {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        position: relative;
+        margin: 20px;
+      }
+
+      .child {
+        height: 80px;
+        width: 80px;
+        background-color: aqua;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+      }
+
+      .stk {
+        height: 50px;
+        width: 500px;
+        background-color: rgb(0, 64, 255);
+        margin: 20px;
+        color: white;
+        position: sticky;
+        bottom: 0px;
+      }
+      .fix {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(4, 255, 0);
+        margin: 20px;
+        color: white;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        z-index: 200;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>Explore CSS Position</h1>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit laudantium
+      eligendi, id distinctio tenetur animi inventore eos illo molestiae amet ex
+      iure quis, autem magni quisquam, cumque error. Repudiandae velit delectus
+      voluptatibus ut natus ab eius, labore repellendus veritatis vel,
+      distinctio quae? Repellat id, aliquid vitae aspernatur ex obcaecati iure?
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit laudantium
+      eligendi, id distinctio tenetur animi inventore eos illo molestiae amet ex
+      iure quis, autem magni quisquam, cumque error. Repudiandae velit delectus
+      voluptatibus ut natus ab eius, labore repellendus veritatis vel,
+      distinctio quae? Repellat id, aliquid vitae aspernatur ex obcaecati iure?
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit laudantium
+      eligendi, id distinctio tenetur animi inventore eos illo molestiae amet ex
+      iure quis, autem magni quisquam, cumque error. Repudiandae velit delectus
+      voluptatibus ut natus ab eius, labore repellendus veritatis vel,
+      distinctio quae? Repellat id, aliquid vitae aspernatur ex obcaecati iure?
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit laudantium
+      eligendi, id distinctio tenetur animi inventore eos illo molestiae amet ex
+      iure quis, autem magni quisquam, cumque error. Repudiandae velit delectus
+      voluptatibus ut natus ab eius, labore repellendus veritatis vel,
+      distinctio quae? Repellat id, aliquid vitae aspernatur ex obcaecati iure?
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit laudantium
+      eligendi, id distinctio tenetur animi inventore eos illo molestiae amet ex
+      iure quis, autem magni quisquam, cumque error. Repudiandae velit delectus
+      voluptatibus ut natus ab eius, labore repellendus veritatis vel,
+      distinctio quae? Repellat id, aliquid vitae aspernatur ex obcaecati iure?
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit laudantium
+      eligendi, id distinctio tenetur animi inventore eos illo molestiae amet ex
+      iure quis, autem magni quisquam, cumque error. Repudiandae velit delectus
+      voluptatibus ut natus ab eius, labore repellendus veritatis vel,
+      distinctio quae? Repellat id, aliquid vitae aspernatur ex obcaecati iure?
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit laudantium
+      eligendi, id distinctio tenetur animi inventore eos illo molestiae amet ex
+      iure quis, autem magni quisquam, cumque error. Repudiandae velit delectus
+      voluptatibus ut natus ab eius, labore repellendus veritatis vel,
+      distinctio quae? Repellat id, aliquid vitae aspernatur ex obcaecati iure?
+    </p>
+
+    <div class="main">
+      <div class="child"></div>
+    </div>
+
+    <div class="fix"></div>
+
+    <div class="stk">Static Div</div>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam
+      quasi molestias! Unde voluptate facere voluptates, error quo porro eum sit
+      dignissimos vitae maxime impedit neque cumque consequuntur quaerat sunt!
+    </p>
+  </body>
+</html>
